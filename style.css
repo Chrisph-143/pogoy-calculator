@@ -1,0 +1,57 @@
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: #121212;
+}
+
+#pogoy{
+  color: grey;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#calculator{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#display{
+  text-align: right;
+  font-size: 40px;
+  color: white;
+}
+
+.button{
+  width: 65px;
+  height: 65px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#equal{
+  width: 145px;
+}
+
+/* Video prank styles */
+#video-prank {
+    display: none;            /* hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 9999;            /* covers everything */
+}
+
+#prank-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* makes video fill screen nicely */
+}
